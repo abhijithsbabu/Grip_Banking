@@ -1,0 +1,115 @@
+table {
+    border-collapse: collapse;
+    width: 70%;
+    border-bottom:  2px ;
+  }
+
+  #dtl
+  {
+      width: 60%;
+  }
+  
+  th, td {
+    text-align: left;
+    padding: 2px;
+  }
+
+  
+  .select-selected {
+    background-color: DodgerBlue;
+  }
+
+select{
+  width: 200px;
+  height: 40px;
+  font-size: 20px;
+  border-radius: 7px;
+  border: white;
+  background-color: rgb(69, 88, 255);
+}
+
+select:hover
+{
+  background-color: rgb(27, 164, 255);
+}
+
+#amtin
+{
+    border: 2px solid rgb(56, 0, 51);
+    width: 200px;
+    height: 40px;
+    border-radius: 7px;
+    font-size: 20px;
+    color: rgb(1, 26, 36);
+    background-color: seashell;
+}
+
+
+  h1{
+    color: rgb(131, 1, 1);
+    font-size: 40px;
+}
+h2{
+    color: rgb(131, 1, 1);
+    font-size: 35px;
+}
+
+  p{
+      font-size: 20px;
+
+  }
+
+  div{
+      padding-left: 30px;
+      padding-right: 30px;
+      margin: 20px;
+      width: 80%;
+      background-color: #bc2cffa8;
+  }
+
+  td{
+      color: rgb(41, 0, 43);
+      font-size: 25px;
+  }
+  #head
+  {
+      background-color: rgb(174, 0, 255);
+      font-weight: bold;
+  }
+  body{
+      font-family: Arial, Helvetica, sans-serif;
+      background-image: linear-gradient(#f2fcc8,#ffccaa);
+      background-attachment: fixed;
+      background-repeat: no-repeat ;
+  }
+  td {
+    text-align: center;
+    line-height: 50px;
+  }
+
+  #detail
+  {
+      width: 120px;
+      height: 40px;
+      border-radius: 5px;
+      background-color: rgb(0, 174, 255);
+      border: none;
+      font-size: 28px;
+  }
+  
+  #transfer
+  {
+      width: 230px;
+      height: 50px;
+      border-radius: 5px;
+      background-color: rgb(0, 68, 255);
+      border: none;
+      color: seashell;
+      font-size: 25px;
+  }
+
+  #detail:hover, #transfer:hover{
+    background-color: rgb(42, 255, 255);
+  }
+
+ 

@@ -1,0 +1,363 @@
+*
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+body
+{
+  background-image: url("argodeon_by_argodeon_debz5tb-fullview.jpg");
+	background-size: cover;
+}
+
+p
+{
+  font-size:25px;
+  color: black;
+  font-weight: bold;
+}
+
+button
+{
+  display: inline-block;
+  border-radius: 9px;
+  border: 3px solid black;
+  background-color: rgba(79, 168, 166);
+  color: black;
+  text-align: center;
+  font-size: 20px;
+  padding: 10px;
+  width: 100px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+table
+{
+  float:center;
+  border-spacing: 10px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+tr
+{
+  padding-bottom: 10px;
+}
+
+th
+{
+  font-size: 26px;
+  padding:0 15px 15px 15px;
+}
+
+td
+{
+    font-size:22px;
+    text-align:center;
+}
+
+.row
+{
+	margin: 0 -5px;
+  margin-top:-10px;
+}
+
+.column
+{
+  float: left;
+  width: 50%;
+
+}
+
+.card
+{
+  padding: 20px;
+  text-align: center;
+}
+
+.hd
+{
+  font-size: 20px;
+}
+
+.tb
+{
+  float:center;
+  border-spacing: 10px;
+  margin: 0 auto;
+  padding: 0px;
+}
+
+.tb2
+{
+  float:center;
+  border-spacing: 10px;
+  margin: 0 auto;
+  padding: 20px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+.logo
+{
+  width:60px;
+  height:50px;
+  border:none;
+  margin-left: 40px;
+  cursor: pointer;
+  margin-top:10px;
+}
+
+.text
+{
+  display:block;
+  font-size: 32px;
+  text-align:center;
+  margin-top:-30px;
+}
+
+.text2
+{
+  font-size: 28px;
+  text-align:center;
+  padding: 3px;
+
+}
+
+.text3, .text4
+{
+  font-size: 20px;
+  text-align:left;
+  padding: 3px;
+  padding-left: 25px;
+  font-weight: bold;
+}
+
+.text4
+{
+  color: #0a4cad;
+}
+
+.b1
+{
+  margin-top: 25px;
+  margin-right:50px;
+  width:90px;
+  float:right;
+}
+
+.b1:hover
+{
+   width:100px;
+   border-color: 12px solid black;
+   background-color:#137871;
+}
+
+.b2, .b3
+{
+  background-color: rgba(79, 168, 166);
+  margin-top:20px;
+  width:auto;
+}
+
+.b2:hover, .b3:hover
+{
+  border-color: 12px solid black;
+  background-color:#137871;
+  width:180px;
+  transition-duration: all 1s;
+}
+
+.b3:hover
+{
+  width:220px;
+}
+
+.bank
+{
+  margin: 0 auto;
+  padding:20px;
+  text-align: center;
+  font-size:56px;
+  margin-top:-80px;
+  margin-left:35px;
+  font-family: Yu Gothic UI Semibold;
+  font-style: bold;
+}
+
+.bar
+{
+  height: 330px;
+  background-color: rgba(119,182,181,0.75);
+  margin-left:250px;
+  margin-right:250px;
+  border: 4px solid black;
+  border-radius: 8px;
+  text-align: center;
+  padding: 40px;
+  margin-top:10px;
+}
+
+.usersbar
+{
+  height: 470px;
+  background-color: rgba(144,138,174,0.75);
+  margin-left:200px;
+  margin-right:200px;
+  border: 4px solid black;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  float:center;
+}
+
+.transactionsbar
+{
+  height: 500px;
+  background-color: rgba(144,138,174,0.75);
+  margin-left:120px;
+  margin-right:120px;
+  border: 4px solid black;
+  border-radius: 8px;
+  text-align: center;
+  padding: 10px;
+  float:center;
+}
+
+
+.infobar
+{
+  margin: 0 auto;
+  padding:50px;
+  height:720px;
+  width:1200px;
+  border: 4px solid black;
+  border-radius: 18px;
+  background-color: rgba(119,182,181,0.75);
+  float:center;
+  margin-top:20px;
+  margin-bottom: 30px;
+}
+
+
+.transferbar
+{
+  margin: 0 auto;
+  padding:50px;
+  text-align: center;
+  height:510px;
+  width:530px;
+  border: 4px solid black;
+  border-radius: 18px;
+  background-color: rgba(144,138,174,0.75);
+  float:center;
+  margin-bottom:75px;
+}
+
+.sub
+{
+  width:120px;
+  background-color: rgba(120, 112, 161);
+  border:3px solid black;
+  padding:10px;
+  font-weight:bold;
+  font-family:Cambria Math;
+  height:55px;
+  font-size:28px;
+  border-radius: 7px;
+  margin-top:170px;
+}
+
+.sub:hover
+{
+  width:140px;
+  background-color:rgba(85, 78, 120);
+  border-radius: 6px;
+  transition:1s;
+}
+
+.recip
+{
+  margin-left:180px;
+  margin-top:15px;
+  float:left;
+}
+
+.amt
+{
+  margin-top: 10px;
+  margin-right: 180px;
+  float:right;
+}
+
+::placeholder
+{
+  color: black;
+  opacity:0.5;
+}
+
+.user
+{
+  height:200px;
+  width:200px;
+  border-radius: 50%;
+  margin-left:40px;
+  margin-top:-15px;
+}
+
+#reg
+{
+  height:40px;
+  width:270px;
+  font-family: Times New Roman;
+  border-style: solid;
+  border-color: black;
+  border-radius:2px;
+  border-width: 0px 0px 4px 0px;
+  background: transparent;
+  font-size:20px;
+  color:black;
+}
+
+#users, #view
+{
+  height:40px;
+  width:90px;
+  font-size:16px;
+  background-color: rgba(120, 112, 161,0.75);
+  border-radius: 8px;
+}
+
+#view
+{
+  width:75px;
+}
+
+ #users:hover, #view:hover
+{
+  width: 100px;
+  transition-duration: 0.5s;
+  background-color: rgba(85, 78, 120);
+}
+
+#view:hover
+{
+  width: 85px;
+}
+
+.cr
+{
+  position:fixed;
+  bottom:0px;
+  left:530px;
+  text-align: center;
+  font-size: 14px;
+  color:black;
+  background-color: rgba(144,138,174,0.75);
+  padding:10px;
+  margin-bottom: 20px;
+  width:400px;
+  border-radius: 8px;
+  border: 2px solid black;
+}
