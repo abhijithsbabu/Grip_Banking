@@ -163,5 +163,5 @@ app.post('/transfer',urlencoded,function(req,res)
     });
 });
 
-
-var server = app.listen(4400);
+const port = process.env.PORT || 4400;
+var server = app.listen(port);
